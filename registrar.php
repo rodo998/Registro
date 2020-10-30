@@ -3,7 +3,10 @@
 include("con_db.php");
 if($conex){
 	echo "conexion establecida";
+}else{
+	echo "no se pudo establecer la conexion"
 }
+
 if (isset($_POST['register'])) {
     if (strlen($_POST['name']) >= 1 && strlen($_POST['email']) >= 1) {
 	    $name = trim($_POST['name']);
