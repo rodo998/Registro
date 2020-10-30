@@ -10,7 +10,7 @@
     	<h1>Sistema de Registro por Rodolfo Cervantes</h1>
     	<input type="text" name="name" placeholder="Nombre completo">
     	<input type="email" name="email" placeholder="Email">
-    	<input type="submit" name="register">
+    	<input type="submit" name="register" value="Registrar">
     </form>
         <?php 
         include("registrar.php");
