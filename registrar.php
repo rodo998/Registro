@@ -1,10 +1,9 @@
 <?php 
 
 include("con_db.php");
+
 if($conex){
 	echo "conexion establecida";
-}else{
-	echo "no se pudo establecer la conexion"
 }
 
 if (isset($_POST['register'])) {
@@ -12,7 +11,7 @@ if (isset($_POST['register'])) {
 	    $name = trim($_POST['name']);
 	    $email = trim($_POST['email']);
 	    $fechareg = date("d/m/y");
-	    $consulta = "INSERT INTO directorio.persona(id, nombre, email, fecha_reg) VALUES (0,'$name','$email','$fechareg')";
+	    $consulta = "INSERT INTO directorio.personas(id, nombre, email, fecha_reg) VALUES (0,'$name','$email','$fechareg')";
 	    $resultado = mysqli_query($conex,$consulta);
 	    if ($resultado) {
 	    	?> 
