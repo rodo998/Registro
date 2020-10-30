@@ -4,4 +4,10 @@ os: linux
 files:
   - source: /index.php
     destination: /var/www/registro/
+  - source: /con_db.php
+    destination: /var/www/registro/
+  - source: /estilo.css
+    destination: /var/www/registro/
+  - source: /registrar.php
+    destination: /var/www/registro/
 
