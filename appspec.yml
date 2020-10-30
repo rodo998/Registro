@@ -3,5 +3,5 @@ os: linux
 
 files:
   - source: /index.php
-    destination: /var/www/html/
+    destination: /var/www/registro/
 
