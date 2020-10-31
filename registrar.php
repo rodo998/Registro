@@ -4,8 +4,6 @@ include("con_db.php");
 
 if($conex){
 	echo "¡Conexion con la base de datos esablecida!"
-}else{
-	echo "No se ha podido establecer la conexion con la base de datos"
 }
 
 if (isset($_POST['register'])) {
