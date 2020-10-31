@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registrar</title>
+	<title>Registrar Directorio</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
     <form method="post">
-    	<h1>Sistema de Registro por Rodolfo Cervantes</h1>
+    	<h1>Sistema de Registro Rodolfo Cervantes</h1>
     	<input type="text" name="name" placeholder="Nombre completo">
     	<input type="email" name="email" placeholder="Email">
 		<input type="tel" name="phone" placeholder="ej. 84412312423">
