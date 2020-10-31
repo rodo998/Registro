@@ -3,7 +3,7 @@
 include("con_db.php");
 
 if($conex){
-	echo "conexion establecida"
+	echo "conexion establecida";
 }
 
 if (isset($_POST['register'])) {
