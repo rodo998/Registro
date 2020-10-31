@@ -14,7 +14,7 @@ if (isset($_POST['register'])) {
 		$email = trim($_POST['email']);
 		$phone = trim($_POST['phone']);
 	    $fechareg = date("d/m/y");
-	    $consulta = "INSERT INTO directorio.personas(id, nombre, email, telefono, fecha_registro) VALUES (0,'$name','$email','$phone','$fechareg')";
+	    $consulta = "INSERT INTO directorio.personas(nombre, correo, telefono, fecha_registro) VALUES ('$name','$email','$phone','$fechareg')";
 	    $resultado = mysqli_query($conex,$consulta);
 	    if ($resultado) {
 		?> 
